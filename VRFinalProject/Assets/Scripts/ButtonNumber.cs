@@ -17,6 +17,7 @@ public class ButtonNumber : MonoBehaviour
 
     public void TurnOffAllCanvas()
     {
+        Debug.Log("Turning Off Canvas");
         foreach (CanvasGroup canvasGroup in canvasList)
         {
             canvasGroup.interactable = false;
@@ -26,6 +27,7 @@ public class ButtonNumber : MonoBehaviour
 
     public void TurnOnCanva()
     {
+        Debug.Log("Turning On Canvas");
         canvasList[buttonN].alpha = Mathf.Lerp(0, 1, 0.4f);
         canvasList[buttonN].interactable = true;
     }
