@@ -11,7 +11,7 @@ public class ButtonNumber : MonoBehaviour
 
     private void Awake()
     {
-        manager = FindObjectOfType<CanvasManager>();
+        manager = gameObject.GetComponentInParent<CanvasManager>();
         canvasList = manager.canvasList;
     }
 
