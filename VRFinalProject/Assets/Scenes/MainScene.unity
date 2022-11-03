@@ -29108,6 +29108,7 @@ GameObject:
   - component: {fileID: 4794989497876380557}
   - component: {fileID: 1079122351215013193}
   - component: {fileID: 8160794773773673268}
+  - component: {fileID: 1263566942440099581}
   m_Layer: 0
   m_Name: Probetas.010
   m_TagString: Untagged
@@ -29115,6 +29116,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &1263566942440099581
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263566942440099580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.092775226
+  m_Height: 0.20934868
+  m_Direction: 1
+  m_Center: {x: -0.000000033527613, y: -0.023178801, z: 0.00000008195639}
 --- !u!1 &1274165807622764596
 GameObject:
   m_ObjectHideFlags: 0
@@ -30181,6 +30196,7 @@ GameObject:
   - component: {fileID: 4544587640125202527}
   - component: {fileID: 2694742757158671175}
   - component: {fileID: 5238827281657428593}
+  - component: {fileID: 2854330936265835620}
   m_Layer: 0
   m_Name: Probetas.008
   m_TagString: Untagged
@@ -30188,6 +30204,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &2854330936265835620
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854330936265835619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.10724223
+  m_Height: 0.2467519
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.014411196, z: -0.0000000037252903}
 --- !u!23 &2878729727781979288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30971,6 +31001,7 @@ GameObject:
   - component: {fileID: 2199747809421682409}
   - component: {fileID: 3034894773170184402}
   - component: {fileID: 1582641304586335251}
+  - component: {fileID: 4306613026689250968}
   m_Layer: 0
   m_Name: Matraz Erlenmeyer
   m_TagString: Untagged
@@ -30978,6 +31009,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &4306613026689250968
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4306613026689250967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.07437557
+  m_Height: 0.1997053
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.010930877, z: 0}
 --- !u!23 &4346304491159787005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31232,6 +31277,7 @@ GameObject:
   - component: {fileID: 1646279423975166667}
   - component: {fileID: 8324654662075644517}
   - component: {fileID: 337478263307075205}
+  - component: {fileID: 4900320155534625913}
   m_Layer: 0
   m_Name: Probetas.007
   m_TagString: Untagged
@@ -31239,6 +31285,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &4900320155534625913
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4900320155534625912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.10724211
+  m_Height: 0.17048717
+  m_Direction: 1
+  m_Center: {x: 0.000000026077032, y: -0.014411204, z: 0.000000037252903}
 --- !u!4 &4906842538533790730
 Transform:
   m_ObjectHideFlags: 0
@@ -33953,6 +34013,7 @@ GameObject:
   - component: {fileID: 5970145120044729694}
   - component: {fileID: 7022774834794277008}
   - component: {fileID: 8657401342506558733}
+  - component: {fileID: 9124171688655814354}
   m_Layer: 0
   m_Name: Probetas.009
   m_TagString: Untagged
@@ -33960,6 +34021,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &9124171688655814354
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9124171688655814353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.10724217
+  m_Height: 0.17048717
+  m_Direction: 1
+  m_Center: {x: 0.000000014901161, y: -0.007532526, z: -0.000000022351742}
 --- !u!23 &9135024115516575808
 MeshRenderer:
   m_ObjectHideFlags: 0
