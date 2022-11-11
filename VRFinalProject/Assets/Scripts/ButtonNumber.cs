@@ -9,9 +9,11 @@ public class ButtonNumber : MonoBehaviour
     CanvasManager manager;
     List<CanvasGroup> canvasList;
 
+    public GameObject canvasContainer;
+
     private void Awake()
     {
-        manager = gameObject.GetComponentInParent<CanvasManager>();
+        manager = canvasContainer.GetComponent<CanvasManager>();
         canvasList = manager.canvasList;
     }
 
