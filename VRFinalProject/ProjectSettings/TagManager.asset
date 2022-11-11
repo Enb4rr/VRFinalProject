@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Mask
+  - Mug
+  - Rumba
+  - Bear
+  - Hat
   layers:
   - Default
   - TransparentFX
