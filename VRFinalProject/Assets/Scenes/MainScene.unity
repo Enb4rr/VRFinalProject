@@ -7288,7 +7288,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements: []
+  elements:
+  - Hat
 --- !u!1 &490475021
 GameObject:
   m_ObjectHideFlags: 0
@@ -10005,7 +10006,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements: []
+  elements:
+  - Bear
 --- !u!1001 &752935315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12308,7 +12310,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements: []
+  elements:
+  - Mug
 --- !u!4 &925442862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8809554110066683091, guid: 114b3c3ce4645364a97c8f0803bed65b,
@@ -14934,7 +14937,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements: []
+  elements:
+  - Mask
 --- !u!1001 &1217709455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24232,7 +24236,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements: []
+  elements:
+  - Rumba
 --- !u!1 &2011829171
 GameObject:
   m_ObjectHideFlags: 0
