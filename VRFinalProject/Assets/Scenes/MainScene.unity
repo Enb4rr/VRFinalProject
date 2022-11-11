@@ -9564,6 +9564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &715207463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15545,6 +15546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &1268594095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16509,6 +16511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &1379491890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17577,6 +17580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 5900295782400870206}
 --- !u!114 &1467968442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17876,6 +17880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &1480316647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21767,6 +21772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &1819856060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23376,6 +23382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &1959652774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25028,6 +25035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &2063871577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25405,6 +25413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 5900295782400870206}
 --- !u!114 &2083630104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25846,6 +25855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &2109566917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34808,6 +34818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 1
+  canvasContainer: {fileID: 5900295782400870206}
 --- !u!114 &6123451785171617518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34865,17 +34876,6 @@ MonoBehaviour:
       - m_Target: {fileID: 6123451785171617517}
         m_MethodName: TurnOnCanva
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6123451786364233032}
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -35766,6 +35766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451785367399318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36033,6 +36034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451785450901513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37010,6 +37012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451785565760283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38166,6 +38169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 1
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451785802734665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38481,6 +38485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451785839914196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39038,6 +39043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!224 &6123451785987561736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39164,7 +39170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c212858a17df06c44b3ce9f09e61a8d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonN: 2
+  buttonN: 1
+  canvasContainer: {fileID: 5900295782400870206}
 --- !u!114 &6123451785988252460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40080,6 +40087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786129201883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40354,6 +40362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 1
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786149527589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40716,6 +40725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!222 &6123451786198566480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41700,6 +41710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 1
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786406890832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42990,6 +43001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786601653504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43264,6 +43276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786603318364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44414,6 +44427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 1
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786856405634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45169,6 +45183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 2
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451786965333879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46094,6 +46109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 0
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451787138829413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46237,6 +46253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonN: 3
+  canvasContainer: {fileID: 0}
 --- !u!114 &6123451787189057530
 MonoBehaviour:
   m_ObjectHideFlags: 0
