@@ -6,15 +6,20 @@ public class ButtonNumber : MonoBehaviour
 {
     public int buttonN;
 
-    CanvasManager manager;
+    public CanvasManager manager;
     List<CanvasGroup> canvasList;
-
-    public GameObject canvasContainer;
 
     private void Awake()
     {
-        manager = canvasContainer.GetComponent<CanvasManager>();
+        manager = GetComponentInParent<CanvasManager>();
         canvasList = manager.canvasList;
+    }
+
+    private void Start()
+    {
+        TurnOffAllCanvas();
+
+        canvasList[0].alpha = Mathf.Lerp(0, 1, 0.1f);
     }
 
     public void TurnOffAllCanvas()
