@@ -19,7 +19,7 @@ public class ButtonNumber : MonoBehaviour
     {
         TurnOffAllCanvas();
 
-        canvasList[0].alpha = Mathf.Lerp(0, 1, 0.1f);
+        canvasList[0].alpha = Mathf.Lerp(0, 1, 1);
     }
 
     public void TurnOffAllCanvas()
@@ -28,14 +28,14 @@ public class ButtonNumber : MonoBehaviour
         foreach (CanvasGroup canvasGroup in canvasList)
         {
             canvasGroup.interactable = false;
-            canvasGroup.alpha = Mathf.Lerp(1, 0, 0.2f);
+            canvasGroup.alpha = Mathf.Lerp(1, 0, 1);
         }
     }
 
     public void TurnOnCanva()
     {
         Debug.Log("Turning On Canvas");
-        canvasList[buttonN].alpha = Mathf.Lerp(0, 1, 0.4f);
+        canvasList[buttonN].alpha = Mathf.Lerp(0, 1, 1);
         canvasList[buttonN].interactable = true;
     }
 }
