@@ -21,7 +21,7 @@ public class ChangeTextChapter : MonoBehaviour
         
     }
 
-    void ChangeText()
+    public void ChangeText()
     {
         displayText.text = chapterText;
     }
