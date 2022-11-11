@@ -8894,7 +8894,7 @@ PrefabInstance:
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.size
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
@@ -9010,7 +9010,7 @@ PrefabInstance:
         type: 3}
       propertyPath: elements.Array.data[22]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7663296533287179913}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.data[23]
@@ -31559,6 +31559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: '[SOUNDS]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698405953010828613, guid: 09395c48f3efdd341bf43c58c10e4a26,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09395c48f3efdd341bf43c58c10e4a26, type: 3}
