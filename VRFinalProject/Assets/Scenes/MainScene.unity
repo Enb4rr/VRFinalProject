@@ -6768,6 +6768,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7998009219200689205, guid: f862c9a0603ae1e49b7daef76a85a79c,
         type: 3}
+      propertyPath: clickMethod
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998009219200689205, guid: f862c9a0603ae1e49b7daef76a85a79c,
+        type: 3}
       propertyPath: customOrigin
       value: 
       objectReference: {fileID: 736095642}
@@ -18409,7 +18414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -20031,7 +20036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
