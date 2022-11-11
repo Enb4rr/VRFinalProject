@@ -5346,7 +5346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348343207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.337152, y: 2.1389802, z: 8.940576}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 666617632}
@@ -8164,7 +8164,7 @@ PrefabInstance:
     - target: {fileID: 2764921037832162238, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2764921037832162239, guid: 0b5f198c853b9794680bf089e64daf28,
         type: 3}
@@ -14946,6 +14946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraRigs.TrackedAlias
       objectReference: {fileID: 0}
+    - target: {fileID: 1540271613746846, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -20970,9 +20974,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOffAllCanvas
-        m_Mode: 1
+      - m_Target: {fileID: 591700406}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -20981,16 +20985,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOnCanva
-        m_Mode: 1
+      - m_Target: {fileID: 6123451786079543142}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1719368614
 MonoBehaviour:
@@ -22267,9 +22271,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOffAllCanvas
-        m_Mode: 1
+      - m_Target: {fileID: 916126751}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -22278,16 +22282,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOnCanva
-        m_Mode: 1
+      - m_Target: {fileID: 6123451786079543142}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1838650371
 MonoBehaviour:
@@ -23073,9 +23077,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOffAllCanvas
-        m_Mode: 1
+      - m_Target: {fileID: 814240018}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23084,16 +23088,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: TurnOnCanva
-        m_Mode: 1
+      - m_Target: {fileID: 6123451786079543142}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1901672587
 MonoBehaviour:
@@ -26535,7 +26539,6 @@ GameObject:
   - component: {fileID: 5540557008329133701}
   - component: {fileID: 4940189040304399874}
   - component: {fileID: 6498846528287169628}
-  - component: {fileID: 101429983195502771}
   m_Layer: 0
   m_Name: PuertasCajones.022
   m_TagString: Untagged
@@ -26543,20 +26546,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &101429983195502771
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101429983195502770}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6957801432240336891, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!1 &168075585363190488
 GameObject:
   m_ObjectHideFlags: 0
@@ -30698,7 +30687,6 @@ GameObject:
   - component: {fileID: 1034825605793905491}
   - component: {fileID: 1121819165246658857}
   - component: {fileID: 6638132533941265429}
-  - component: {fileID: 2128715960225680122}
   m_Layer: 0
   m_Name: PuertasCajones.019
   m_TagString: Untagged
@@ -30706,20 +30694,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &2128715960225680122
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128715960225680121}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6086554501783926127, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!23 &2158354122712891385
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30810,7 +30784,6 @@ GameObject:
   - component: {fileID: 7176667975344853837}
   - component: {fileID: 5118982976847634447}
   - component: {fileID: 3958694127785019138}
-  - component: {fileID: 2249344471101318586}
   m_Layer: 0
   m_Name: PuertasCajones.020
   m_TagString: Untagged
@@ -30818,20 +30791,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &2249344471101318586
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2249344471101318585}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8480829668590892989, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!23 &2252584950069330014
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30922,7 +30881,6 @@ GameObject:
   - component: {fileID: 3572476302847794291}
   - component: {fileID: 6210762062276393365}
   - component: {fileID: 5516385074990603158}
-  - component: {fileID: 2366911791894894163}
   m_Layer: 0
   m_Name: PuertasCajones.021
   m_TagString: Untagged
@@ -30930,20 +30888,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &2366911791894894163
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366911791894894162}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3035755869035729127, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!23 &2368803602857086276
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31824,7 +31768,6 @@ GameObject:
   - component: {fileID: 6028624167716691847}
   - component: {fileID: 6639976379972172678}
   - component: {fileID: 8495208685541878685}
-  - component: {fileID: 4073809143479742272}
   m_Layer: 0
   m_Name: Ruedas.001
   m_TagString: Untagged
@@ -31832,20 +31775,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &4073809143479742272
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4073809143479742271}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 429088179635684635, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!4 &4101043052372930042
 Transform:
   m_ObjectHideFlags: 0
@@ -32901,7 +32830,6 @@ GameObject:
   - component: {fileID: 3937681267386821701}
   - component: {fileID: 324115938355106424}
   - component: {fileID: 5727439779872146177}
-  - component: {fileID: 5780867662026197774}
   m_Layer: 0
   m_Name: PuertasCajones.018
   m_TagString: Untagged
@@ -32909,20 +32837,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &5780867662026197774
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5780867662026197773}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9192234418739982848, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!1 &5803965286746611872
 GameObject:
   m_ObjectHideFlags: 0
@@ -47952,7 +47866,7 @@ MeshCollider:
   m_GameObject: {fileID: 7744831163489747389}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -48120,7 +48034,6 @@ GameObject:
   - component: {fileID: 4736199964436538651}
   - component: {fileID: 3023674892701830767}
   - component: {fileID: 2526385321639887383}
-  - component: {fileID: 8052396962780759397}
   m_Layer: 0
   m_Name: PuertasCajones.017
   m_TagString: Untagged
@@ -48128,20 +48041,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8052396962780759397
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8052396962780759396}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1531738460592684180, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!1 &8059626148730287693
 GameObject:
   m_ObjectHideFlags: 0
@@ -48153,7 +48052,6 @@ GameObject:
   - component: {fileID: 3043918556017319183}
   - component: {fileID: 5302365489598772527}
   - component: {fileID: 8096768033428236309}
-  - component: {fileID: 8059626148730287694}
   m_Layer: 0
   m_Name: Retrovisores.001
   m_TagString: Untagged
@@ -48161,20 +48059,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8059626148730287694
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8059626148730287693}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2907205724541261882, guid: f90303d280ace7f49a5d41a096770cb2, type: 3}
 --- !u!4 &8059701264728918744
 Transform:
   m_ObjectHideFlags: 0
