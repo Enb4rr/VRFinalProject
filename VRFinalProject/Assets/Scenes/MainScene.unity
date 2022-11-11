@@ -9027,7 +9027,7 @@ PrefabInstance:
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
@@ -9064,6 +9064,16 @@ PrefabInstance:
       propertyPath: elements.Array.data[6]
       value: 
       objectReference: {fileID: 4698405953110485518}
+    - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
+        type: 3}
+      propertyPath: elements.Array.data[7]
+      value: 
+      objectReference: {fileID: 736095643}
+    - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
+        type: 3}
+      propertyPath: elements.Array.data[8]
+      value: 
+      objectReference: {fileID: 1608785391}
     - target: {fileID: 4714943977382568984, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: processInactiveGameObjects
@@ -9876,6 +9886,12 @@ PrefabInstance:
 --- !u!4 &736095642 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5475526938935984466, guid: f8e0d2a59209d854b91b04b5db7df9ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 736095641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &736095643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513720922731669819, guid: f8e0d2a59209d854b91b04b5db7df9ca,
     type: 3}
   m_PrefabInstance: {fileID: 736095641}
   m_PrefabAsset: {fileID: 0}
@@ -19592,6 +19608,12 @@ PrefabInstance:
       objectReference: {fileID: 1217709460}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
+--- !u!1 &1608785391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513720922731669819, guid: f8e0d2a59209d854b91b04b5db7df9ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1608785390}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1610271467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43199,7 +43221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasList:
   - {fileID: 892548339}
-  - {fileID: 892548339}
+  - {fileID: 6123451786436496634}
   - {fileID: 260393701}
   - {fileID: 2001326055}
 --- !u!224 &6123451786436496626 stripped
@@ -43278,6 +43300,12 @@ MonoBehaviour:
     su nuevo trabajo, toda su frustraci\xF3n se refleja en su vaso, que no alcanza
     en su auto nuevo."
   displayText: {fileID: 2066670297}
+--- !u!225 &6123451786436496634 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 6123451785199116767, guid: eaefc41e94dc3564580f67601c670dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6123451786436496620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6123451786536845684
 GameObject:
   m_ObjectHideFlags: 0
