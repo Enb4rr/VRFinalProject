@@ -28,7 +28,7 @@ public class ButtonNumber : MonoBehaviour
         foreach (CanvasGroup canvasGroup in canvasList)
         {
             canvasGroup.interactable = false;
-            canvasGroup.alpha = Mathf.Lerp(1, 0, 1);
+            canvasGroup.alpha = 0;
         }
     }
 
