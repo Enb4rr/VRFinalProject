@@ -34788,7 +34788,7 @@ RectTransform:
   m_Children:
   - {fileID: 6123451786221362732}
   m_Father: {fileID: 6123451786364233033}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34865,6 +34865,17 @@ MonoBehaviour:
       - m_Target: {fileID: 6123451785171617517}
         m_MethodName: TurnOnCanva
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6123451786364233032}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -35457,7 +35468,7 @@ RectTransform:
   - {fileID: 6123451785317282973}
   - {fileID: 6123451786258090582}
   m_Father: {fileID: 6123451786364233033}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -39134,7 +39145,7 @@ RectTransform:
   m_Children:
   - {fileID: 6123451786893850349}
   m_Father: {fileID: 6123451786364233033}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -41571,9 +41582,9 @@ RectTransform:
   - {fileID: 6123451786248598647}
   - {fileID: 6123451785469297821}
   - {fileID: 6123451785150395807}
+  - {fileID: 6123451785314523482}
   - {fileID: 6123451785171617516}
   - {fileID: 6123451785988252458}
-  - {fileID: 6123451785314523482}
   - {fileID: 1467968440}
   - {fileID: 2083630102}
   - {fileID: 354868957}
